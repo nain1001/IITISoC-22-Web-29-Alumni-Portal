@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="event1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/34d1d1b835.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/34d1d1b835.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- creating a header -->
+    <div class="header">
+        <h4>Indian Institute of Technology Indore</h4>
+    </div>
+    <!--the navigation menu-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="static\alumini_cell_logo.png" alt="" width="60" height="60"
+                    class="d-inline-block align-text-center">
+                Alumini Portal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            EVENTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Magnum Opus</a></li>
+                            <li><a class="dropdown-item" href="#">Reunions</a></li>
+                            <li><a class="dropdown-item" href="#">All Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">STORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-2">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#loginModal">Login</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#signupModal">SignUp</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to Alumini Portal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword5" class="form-label">Password</label>
+                            <input type="password" id="inputPassword5" class="form-control"
+                                aria-describedby="passwordHelpBlock">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Create your Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div id="passwordHelpBlock" class="form-text">
+                                Your password must be 8-20 characters long, contain letters and numbers, and must not
+                                contain spaces, special characters, or emoji.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+
+
+    <!--the search bar-->
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--hide-phone category adjust">
+        <div class="mdl-color--grey-300 margin-bottom-24 widthst">
+            <input class="mdl-typography--font-light search-input-box ng-pristine ng-valid ng-empty ng-touched"
+                type="text" placeholder="Search by title..." ng-keypress="checkIfEnterKeyWasPressed($event)"
+                ng-model="search.title">
+            <span class="category-count search-icon center-alignment" style="width: 48px;" ng-click="eventsSearch()">
+                <i class="fa fa-search" style="vertical-align: middle;">
+                </i>
+            </span>
+        </div>
+    </div>
+
+    <!-- event cards starts here -->
+    <!-- event card 1 -->
+    <div class="container">
+        <div class="card mb-3" style="max-width: 800px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4" style="max-width: 300px; height: 450px">
+                    <img src="static\magnum opus 1.jpg" class="img-fluid rounded-start my-4 mx-4" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title my-3 mx-5">Magnum Opus</h5>
+                        <p class="card-text mx-5">
+                         <div class="mdl-color-text--grey-600 rel-pos" style="margin: 0px 0px 7px 32px"
+                            ng-show="event.sdate">
+                            <!-- <i class="fa-thin fa-clock mx-3"></i> -->
+                            <span class="font-14 font-xs-12 ng-binding mx-3">Date: Feb 17, 2022</span>
+                        </div>
+                        <!-- <div class="padding-top-12">
+                            <div class="timeline-btn mx-5">
+                                <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                            </div>
+                        </div> -->
+                        </p>
+                    </div>
+                    <div class="padding-top-12">
+                        <div class="timeline-btn mx-5 float-center">
+                            <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                        </div>
+                    </div>
+                    <div class="button-view mx-2">
+                        <button class="btn btn-success button float-right" type="submit">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- event card 2 -->
+    <div class="container">
+        <div class="card mb-3" style="max-width: 800px; height: 300px;">
+            <div class="row g-0">
+                <div class="col-md-4" style="max-width: 300px; height: 400px">
+                    <img src="static\magnum opus 2.jpg" class="img-fluid rounded-start my-3 mx-2" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title my-3 mx-5">Magnum Opus 2022</h5>
+                        <p class="card-text mx-5">
+                         <div class="mdl-color-text--grey-600 rel-pos" style="margin: 0px 0px 7px 32px"
+                            ng-show="event.sdate">
+                            <!-- <i class="fa-thin fa-clock mx-3"></i> -->
+                            <span class="font-14 font-xs-12 ng-binding mx-3 my-6">Start: Feb 17, 2022</span>
+                        </div>
+                        <div class="event-end-date mx-4 my-7 ">
+                            <span class="font-14 font-xs-12 ng-binding mx-4 my-7">Ends: Feb 20, 2022</span>
+                        </div>
+                        <div class="event-type mx-4 my-8 ">
+                            <span class="font-14 font-xs-12 ng-binding mx-4 my-8">Online Event</span>
+                        </div>
+                        <!-- <div class="padding-top-12">
+                            <div class="timeline-btn mx-5">
+                                <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                            </div>
+                        </div> -->
+                        </p>
+                    </div>
+                    <div class="padding-top-12">
+                        <div class="timeline-btn mx-5 float-center">
+                            <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                        </div>
+                    </div>
+                    <div class="button-view mx-2">
+                        <button class="btn btn-success button float-right" type="submit">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- event card-3 -->
+    <div class="container">
+        <div class="card mb-3" style="max-width: 800px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4" style="max-width: 300px; height: 450px">
+                    <img src="static\convocation 2021.jpg" class="img-fluid rounded-start my-4 mx-4" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title my-3 mx-5">IIT Indore Ninth Convocation 2021</h5>
+                        <p class="card-text mx-5">
+                         <div class="mdl-color-text--grey-600 rel-pos" style="margin: 0px 0px 7px 32px"
+                            ng-show="event.sdate">
+                            <!-- <i class="fa-thin fa-clock mx-3"></i> -->
+                            <span class="font-14 font-xs-12 ng-binding mx-3">Date: Nov 9, 2021</span>
+                        </div>
+                        <!-- <div class="padding-top-12">
+                            <div class="timeline-btn mx-5">
+                                <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                            </div>
+                        </div> -->
+                        <div class="event-location">
+                            <span class="font-14 font-xs-12 ng-binding mx-5">IIT Indore, Simrol, Khandwa Rd, Madhya Pradesh 453552</span>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="padding-top-12">
+                        <div class="timeline-btn mx-5 float-center">
+                            <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                        </div>
+                    </div>
+                    <div class="button-view mx-2">
+                        <button class="btn btn-success button float-right" type="submit">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- event card-4  -->
+    <div class="container">
+        <div class="card mb-3" style="max-width: 800px; height: 300px;">
+            <div class="row g-0">
+                <div class="col-md-4" style="max-width: 200px; height: 200px">
+                    <img src="static\reunion 202.jpg" class="img-fluid rounded-start my-2 mx-4" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body mx-6">
+                        <h5 class="card-title my-3 mx-5">Reuinon 2020</h5>
+                        <p class="card-text mx-5">
+                         <div class="mdl-color-text--grey-600 rel-pos" style="margin: 0px 0px 7px 32px"
+                            ng-show="event.sdate">
+                            <!-- <i class="fa-thin fa-clock mx-3"></i> -->
+                            <span class="font-14 font-xs-12 ng-binding mx-3">Date: Feb 09, 2020 - 9:00 AM</span>
+                        </div>
+                        <!-- <div class="padding-top-12">
+                            <div class="timeline-btn mx-5">
+                                <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                            </div>
+                        </div> -->
+                        <div class="event-location">
+                            <span class="font-14 font-xs-12 ng-binding mx-5">IIT Indore, Simrol, Khandwa Rd, Madhya Pradesh 453552</span>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="padding-top-12">
+                        <div class="timeline-btn mx-5 float-center">
+                            <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                        </div>
+                    </div>
+                    <div class="button-view mx-2">
+                        <button class="btn btn-success button float-right" type="submit">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- event card-5  -->
+    <div class="container">
+        <div class="card mb-3" style="max-width: 800px; height: 250px;">
+            <div class="row g-0">
+                <div class="col-md-4" style="max-width: 200px; height: 400px">
+                    <img src="static\MAGNUM OPUS 3.jpg" class="img-fluid rounded-start my-4 mx-4" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title my-3 mx-5">ALUMINI MEET 2020-MAGNUM OPUS</h5>
+                        <p class="card-text mx-5">
+                         <div class="mdl-color-text--grey-600 rel-pos" style="margin: 0px 0px 7px 32px"
+                            ng-show="event.sdate">
+                            <!-- <i class="fa-thin fa-clock mx-3"></i> -->
+                            <span class="font-14 font-xs-12 ng-binding mx-3">Date: Feb 08, 2020</span>
+                        </div>
+                        <!-- <div class="padding-top-12">
+                            <div class="timeline-btn mx-5">
+                                <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                            </div>
+                        </div> -->
+                        <div class="event-location">
+                            <span class="font-14 font-xs-12 ng-binding mx-5">IIT Indore, Simrol, Khandwa Rd, Madhya Pradesh 453552</span>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="padding-top-12">
+                        <div class="timeline-btn mx-5 float-center">
+                            <button type="button" class="btn btn-secondary" disabled>Past Event</button>
+                        </div>
+                    </div>
+                    <div class="button-view mx-2">
+                        <button class="btn btn-success button float-right" type="submit">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.header {
+  overflow: hidden;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  color: black;
+  /* font-size: 1px; */
+}
+
+.header a {
+  top: 1px;
+  right: 1px;
+  padding: 2px, 8px;
+}
+
+/* search bar and icon starts here */
+.category-adjust {
+  padding-right: 1%;
+}
+
+@media (min-width: 840px) {
+
+  .mdl-cell--4-col .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {
+    width: calc(33.3333333333% - 16px);
+  }
+}
+
+@media (min-width: 840px) {
+  .mdl-cell {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+  }
+}
+
+.mdl-cell {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.margin-bottom-24 {
+  margin-bottom: 24px !important;
+}
+
+.mdl-color--grey-300 {
+  background-color: rgb(224, 224, 224) !important;
+}
+
+.search-input-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 51px;
+  font-style: italic;
+  width: calc(100% - 48px);
+  border: none;
+  padding: 0px 24px;
+  box-shadow: none;
+  background-color: #E0E0E0;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.mdl-typography--font-light {
+  font-weight: 300 !important;
+}
+
+.widthst {
+  width: 30%;
+}
+
+/* element.style {
+  width: 1%;
+} */
+
+.search-icon {
+  background-color: #6c8d34;
+  color: white;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.category-count {
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  /* display: inline-block; */
+  float: right;
+}
+
+.search-icon:hover {
+  background: #596f32;
+}
+
+/* search bar and icon ends here */
+
+/* event card starts here */
+@media (min-width: 840px) {
+
+  .mdl-cell--8-col,
+  .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {
+    width: calc(66.6666666667% - 16px);
+  }
+}
+
+@media (min-width: 840px) {
+  .mdl-cell {
+    margin: 8px;
+    /* width: calc(33.3333333333% - 16px); */
+  }
+}
+
+.mdl-cell {
+  box-sizing: border-box;
+}
+
+/* event card 1 starts here */
+.button{
+  float: right;
+}
+/* .navbar a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+/* text-align: center;
+} */
